@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InstaSchool</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_infos_user">InfosUserActivity</string>
+    <string name="title_activity_promo">Liste Promo</string>
+    <string name="title_activity_formateur">Liste Formateurs</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_detail_promo">Details Promo</string>
+    <string name="title_activity_detail_eleve">Details Eleve</string>
+    <string name="title_activity_detail_formateurs">Details Formateurs</string>
+    <string name="title_activity_reseau_soc">Reseau Sociaux</string>
+    <string name="title_section1">Facebook</string>
+    <string name="title_section2">Twitter</string>
+    <string name="title_activity_profil">Mon compte</string>
+
+</resources>

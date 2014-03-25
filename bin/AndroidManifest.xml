@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.instaschool"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:logo="@drawable/ic_launcher">
+        <activity
+            android:name="com.insta.instaschool.activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.ListPromoActivity"
+            android:label="@string/title_activity_promo" >
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.FormateurActivity"
+            android:label="@string/title_activity_formateur" >
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.DetailPromoActivity"
+            android:label="@string/title_activity_detail_promo" >
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.DetailEleveActivity"
+            android:label="@string/title_activity_detail_eleve" >
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.DetailFormateursActivity"
+            android:label="@string/title_activity_detail_formateurs" >
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.ReseauSocActivity"
+            android:label="@string/title_activity_reseau_soc" >
+        </activity>
+        <activity
+            android:name="com.insta.instaschool.activity.ProfilActivity"
+            android:label="@string/title_activity_profil" >
+        </activity>
+    </application>
+
+</manifest>
