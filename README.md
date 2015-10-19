@@ -4,17 +4,17 @@ FormateurProject
 Application Androïd de gestion des formateurs
 A la suite d’une formation sur Android, nous avons entamé la réalisation d’un projet en binôme sur une période de deux semaines.
 Ce projet concerne l’école INSTA qui dispense des formations d’informatique et de comptabilité depuis plus de 15 ans.
-Dans un contexte d’ouverture et de communication, l’école INSTA désirs mettre en place des outils permettant d’exploiter ses données.
+Dans un contexte d’ouverture et de communication, l’école INSTA désire mettre en place des outils permettant d’exploiter ses données.
 Elle exprime le besoin de réaliser une application Android destiné à ses formateurs. 
 Actuellement, aucune application mobile satisfaisante n’existe pour cette école. L’école dispose d’un site internet uniquement. 
-C’est dans ce sens que va se tourner la présentation, à savoir comment nous avons planifié et organiser le projet en vue de le réaliser et de répondre aux attentes des clients. 
-Modèle en cascade  qui inclut une méthode agile appelé Scrum pour la réalisation des modules de l’application.
+C’est dans ce sens que va se tourner la présentation, à savoir comment nous avons planifié et organisé le projet en vue de le réaliser et de répondre aux attentes des clients. 
+Modèle en cascade 
 
 
 -Analyse du cahier des charges Expression des besoins/ distinction entre besoin et fonction
 Seul les formateurs et l’Admin pourront accéder à l’application.
-Application destiné à une école afin de visualiser les informations des formateurs, des promos et des élèves. 
-Accéder au news de l’école. Les utilisateurs pourront accéder à la page Facebook et twitter de l’école.
+visualiser les informations des formateurs, des promos et des élèves. 
+Accéder au news de l’école. accéder à la page Facebook et twitter de l’école.
 L’Admin pourra  ajouter  supprimer des formateurs/élèves/promo. 
 L’application devra être ergonomique.
 
@@ -31,19 +31,20 @@ L’application devra contenir un menu.
 
 Conception générale 
 -Réalisation de maquette
-Chaque module à bénéficier d’une phase de maquettage.  Ainsi les parties statiques sont définies et nous disposons d’un visuel pour chaque activité.  La réalisation des layout en sera facilitée. 
+Chaque module a bénéficié d’une phase de maquettage.  Ainsi les parties statiques sont définies et nous disposons d’un visuel pour chaque activité.  La réalisation des layouts en sera facilitée. 
 Démonstration d’une maquette (partie réseau sociaux et partie authentification) 
 -Etablir les scénarios selon les activités
+
 Distinction entre le statique et le dynamique
 Pour chaque module nous avons mis en place un scénario qui permettra de définir ce que fera le module en relation avec les IHM. 
-Prenons l’exemple du listing formateurs : nous avons voulu voir cela de façon simple et de permettre l’interaction sur la sélection du formateurs. La gestion de l’évènement à la sélection du formateur et sa redirection vers le détail du formateur a été réfléchie en amont pour structurer le projet et limiter le périmètre du module.
+Exemple du listing formateurs : 
+voir cela de façon simple et permettre l’interaction sur la sélection du formateurs. La gestion de l’évènement "sélection du formateur et redirection vers le détail du formateur" a été réfléchie en amont pour structurer le projet et limiter le périmètre du module.
 
-Pourquoi ces choix techniques.
 Contrainte technique : coté serveur générer flux JSON ou XML, avoir une application optimale
 
 -Planning et répartition des tâches
 Diagramme de Gantt
-Mise en place de la méthode Pert pour savoir par quel module commencer
+-Pert pour savoir l'ordre des tâches
 -Phase de réalisation 
 
 
